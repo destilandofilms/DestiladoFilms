@@ -18,7 +18,7 @@ const NavBar = () => {
                 <a href='#0' onClick={() => setChecked((c) => !c)} >Bodas</a>
                 <a href='#0' onClick={() => setChecked((c) => !c)}>Musica</a>
                 <NavLink to="/bio" onClick={() => setChecked((c) => !c)}>Bio</NavLink>
-                <NavBar to="/equipo" onClick={() => setChecked((c) => !c)}>Equipo</NavBar>
+                <NavLink to="/equipo" onClick={() => setChecked((c) => !c)}>Equipo</NavLink>
                 <a href='#0' onClick={() => setChecked((c) => !c)}>Contacto</a>
             </nav>
         </div>
