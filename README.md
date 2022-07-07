@@ -10,7 +10,9 @@ Profesional Website for Destilado Films.
 ## Pages 
     [ ] - Home
     [ ] - Weddings
-    [ ] - Parties
+    [ ] - Events
     [ ] - Music Videos
     [ ] - Bio
+    [ ] - Equipo
     [ ] - Contact
+    [ ] - NavBar
