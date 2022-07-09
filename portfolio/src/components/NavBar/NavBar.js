@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
+import "./NavBar.scss";
+
 const NavBar = () => {
     const { checked, setChecked } = useState(false);
 

@@ -1,0 +1,19 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px gray;
+    padding: 1rem;
+
+    label, input {
+        display: none;
+    }
+
+    nav {
+        
+        a {
+            text-decoration: none;
+            color: black;
+            padding: 0 1rem;
+        }
+    }
+}
