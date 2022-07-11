@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Equipo from '../../containers/Equipo/Equipo';
 
 import "./Home.scss";
 
@@ -48,7 +47,7 @@ const Home = () => {
               />
             </svg>
 
-            <h4>Weddings</h4>
+            <h4>Bodas</h4>
             <p>I'm a paragraph. Click here to add your own text and edit me.</p>
           </a>
         </div>
@@ -68,7 +67,7 @@ const Home = () => {
               />
             </svg>
 
-            <h4>Parties</h4>
+            <h4>Eventos</h4>
             <p>I'm a paragraph. Click here to add your own text and edit me.</p>
           </a>
         </div>
@@ -86,13 +85,11 @@ const Home = () => {
               />
             </svg>
 
-            <h4>Music Videos</h4>
+            <h4>Videos de Musica</h4>
             <p>I'm a paragraph. Click here to add your own text and edit me.</p>
           </a>
         </div>
       </div>
-
-      <Equipo />
     </div>
   );
 };
