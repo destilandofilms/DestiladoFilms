@@ -17,11 +17,11 @@ const NavBar = () => {
 
             <nav>
                 <NavLink to="/eventos" style={({ isActive }) => (isActive ? { color: '#B39F79' } : null)} onClick={() => setChecked((c) => !c)} >Eventos</NavLink>
-                <NavLink to='/bodas' onClick={() => setChecked((c) => !c)} >Bodas</NavLink>
-                <NavLink to='/musica' onClick={() => setChecked((c) => !c)}>Musica</NavLink>
+                <NavLink to='/bodas' style={({ isActive }) => (isActive ? { color: '#B39F79' } : null)} onClick={() => setChecked((c) => !c)} >Bodas</NavLink>
+                <NavLink to='/musica' style={({ isActive }) => (isActive ? { color: '#B39F79' } : null)} onClick={() => setChecked((c) => !c)}>Musica</NavLink>
                 <NavLink to="/bio" style={({ isActive }) => (isActive ? { color: '#B39F79' } : null)} onClick={() => setChecked((c) => !c)}>Bio</NavLink>
                 <NavLink to="/equipo" style={({ isActive }) => (isActive ? { color: '#B39F79' } : null)} onClick={() => setChecked((c) => !c)}>Equipo</NavLink>
-                <NavLink to='/contacto' onClick={() => setChecked((c) => !c)}>Contacto</NavLink>
+                <NavLink to='/contacto' style={({ isActive }) => (isActive ? { color: '#B39F79' } : null)} onClick={() => setChecked((c) => !c)}>Contacto</NavLink>
             </nav>
         </div>
     );
