@@ -1,7 +1,16 @@
 .bio {
-    height: 100vh;
 
-    .b-para {
-        color: #FFDB58;
+    .b-info {
+        height: 80vh;
+        border: solid blue 1px;
+
+        .b-para {
+            color: #FFDB58;
+        }
+    }
+
+    .b-img {
+        height: 50vh;
+        border: solid red 1px;
     }
 }

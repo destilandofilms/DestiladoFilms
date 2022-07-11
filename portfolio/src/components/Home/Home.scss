@@ -33,6 +33,11 @@
                 text-align: center;
                 display: flex;
                 padding-top: 2rem;
+                transition: ease-in 0.5s;
+
+                &:hover {
+                    color: #B39F79;
+                }
             }
         }
     }
