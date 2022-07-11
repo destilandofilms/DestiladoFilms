@@ -1,3 +1,86 @@
 .home {
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .h-main {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h-mini-bio {
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 1rem;
+        margin: 0 10rem;
+        line-height: 1rem;
+
+        .hm-para {
+
+            p {
+                color: rgb(135, 131, 126);
+                padding-top: 2rem;
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+                text-align: center;
+                display: flex;
+                padding-top: 2rem;
+            }
+        }
+    }
+
+    .h-topics {
+        background-color: white;
+        display: flex;
+        height: 60vh;
+        justify-content: center;
+        align-items: center;
+
+        div {
+            display: flex;
+            height: 18rem;
+            width: 18rem;
+            padding: 0.5rem;
+
+            a {
+                text-decoration: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                svg {
+                    height: 60px;
+                    width: 60px;
+                    fill: #B39F79;
+                    cursor: pointer;
+
+                    &:hover {
+                        fill: black;
+                    }
+                }
+
+                h4 {
+                    color: black;
+                    cursor: pointer;
+                }
+
+                p {
+                    color: rgb(135, 131, 126);
+                    padding: 0 2.5rem;
+                    cursor: pointer;
+                }
+            }
+        }
+
+
+    }
 }
