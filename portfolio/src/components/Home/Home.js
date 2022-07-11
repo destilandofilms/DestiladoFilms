@@ -33,7 +33,7 @@ const Home = () => {
 
       <div className='h-topics'>
         <div className='t-wedding'>
-          <a href='#0'>
+          <NavLink to='/bodas'>
             <svg
               width="24"
               height="24"
@@ -49,11 +49,11 @@ const Home = () => {
 
             <h4>Bodas</h4>
             <p>I'm a paragraph. Click here to add your own text and edit me.</p>
-          </a>
+          </NavLink>
         </div>
 
         <div className='t-party'>
-          <a href='#0'>
+          <NavLink to="/eventos">
             <svg
               width="24"
               height="24"
@@ -69,11 +69,11 @@ const Home = () => {
 
             <h4>Eventos</h4>
             <p>I'm a paragraph. Click here to add your own text and edit me.</p>
-          </a>
+          </NavLink>
         </div>
 
         <div className='t-music'>
-          <a href='#0'>
+          <NavLink to='/musica'>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -87,7 +87,7 @@ const Home = () => {
 
             <h4>Videos de Musica</h4>
             <p>I'm a paragraph. Click here to add your own text and edit me.</p>
-          </a>
+          </NavLink>
         </div>
       </div>
     </div>
