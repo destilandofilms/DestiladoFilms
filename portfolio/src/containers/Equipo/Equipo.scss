@@ -1,4 +1,48 @@
 .equipo {
-    height: 100vh;
-    border: solid blue 1px;
+    height: 100%;
+
+    .e-exp {
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0 30rem 0 15rem;
+
+        p {
+            color: rgb(135, 131, 126);
+        }
+    }
+
+    .e-list {
+        display: flex;
+        flex-wrap: wrap;
+        height: 80vh;
+        color: black;
+        background-color: white;
+        justify-content: center;
+        padding: 2rem 6rem;
+
+        .cameras, .Lentes, .accesorios, .patrocinadores {
+            position: relative;
+            flex-basis: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            line-height:8px;
+            
+            svg {
+                width: 45px;
+                height: 45px;
+                fill: #B39F79;
+                margin-bottom: 1rem;
+            }
+
+            .text {
+                font-size: smaller;
+                text-align: center;
+            }
+        }
+    }
 }
