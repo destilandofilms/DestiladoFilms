@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import Equipo from '../../containers/Equipo/Equipo';
 
 import "./Home.scss";
 
@@ -90,6 +91,8 @@ const Home = () => {
           </a>
         </div>
       </div>
+
+      <Equipo />
     </div>
   );
 };

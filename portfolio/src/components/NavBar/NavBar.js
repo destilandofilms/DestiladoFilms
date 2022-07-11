@@ -16,11 +16,11 @@ const NavBar = () => {
             </div>
 
             <nav>
-                <a href="#0" onClick={() => setChecked((c) => !c)} >Eventos</a>
+                <NavLink to="/eventos" style={({ isActive }) => (isActive ? { color: '#B39F79' } : null)} onClick={() => setChecked((c) => !c)} >Eventos</NavLink>
                 <a href='#0' onClick={() => setChecked((c) => !c)} >Bodas</a>
                 <a href='#0' onClick={() => setChecked((c) => !c)}>Musica</a>
-                <NavLink to="/bio" onClick={() => setChecked((c) => !c)}>Bio</NavLink>
-                <NavLink to="/equipo" onClick={() => setChecked((c) => !c)}>Equipo</NavLink>
+                <NavLink to="/bio" style={({ isActive }) => (isActive ? { color: '#B39F79' } : null)} onClick={() => setChecked((c) => !c)}>Bio</NavLink>
+                <NavLink to="/equipo" style={({ isActive }) => (isActive ? { color: '#B39F79' } : null)} onClick={() => setChecked((c) => !c)}>Equipo</NavLink>
                 <a href='#0' onClick={() => setChecked((c) => !c)}>Contacto</a>
             </nav>
         </div>

@@ -1,8 +1,13 @@
 import React from 'react';
 
+import "./Equipo.scss";
+
+
 const Equipo = () => {
   return (
-    <div>Equipo</div>
+    <div className='equipo'>
+      Equipo
+    </div>
   );
 };
 
