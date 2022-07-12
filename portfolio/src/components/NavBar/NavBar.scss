@@ -1,8 +1,16 @@
 .menu {
     display: flex;
     justify-content: space-between;
-    border-bottom: solid 1px gray;
     padding: 1rem;
+
+    .logo {
+        a {
+            img {
+                width: 60px;
+                height: 30px;
+            }
+        }
+    }
 
     label, input {
         display: none;

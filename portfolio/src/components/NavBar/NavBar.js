@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
+import Logo from "../../assests/destilado.jpg";
+
 import "./NavBar.scss";
 
 const NavBar = () => {
@@ -12,7 +14,7 @@ const NavBar = () => {
             <input type="checkbox" id="toggle" checked={checked} onChange={(e) => setChecked(e.target.checked)} />
 
             <div className='logo'>
-                <NavLink to="/"><img src='#' alt='Destilado Films Logo'/></NavLink>
+                <NavLink to="/"><img src={Logo} alt='Destilado Films Logo'/></NavLink>
             </div>
 
             <nav>
