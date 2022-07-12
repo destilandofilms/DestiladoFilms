@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Home from './components/Home/Home';
+import Home from './containers/Home/Home';
 import NavBar from './components/NavBar/NavBar';
-import Eventos from './components/Eventos/Eventos';
-import Bodas from './components/Bodas/Bodas';
-import Music from './components/Music/Music';
+import Eventos from './containers/Eventos/Eventos';
+import Bodas from './containers/Bodas/Bodas';
+import Music from './containers/Music/Music';
 import Bio from './containers/Bio/Bio';
 import Equipo from './containers/Equipo/Equipo';
 
