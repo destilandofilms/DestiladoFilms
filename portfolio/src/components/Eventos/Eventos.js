@@ -17,7 +17,7 @@ const Eventos = () => {
 
   return (
     <div className='eventos'>
-      <Gallery images={images} />
+      {/* <Gallery images={images} /> */}
     </div>
   );
 };

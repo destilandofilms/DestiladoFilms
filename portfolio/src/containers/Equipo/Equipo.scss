@@ -8,6 +8,10 @@
         justify-content: center;
         align-items: flex-start;
         padding: 0 30rem 0 15rem;
+        background-image: url("../../assests/theregisti-VEbUF1BnGkA-unsplash.jpg");
+        background-size: cover;
+        background-position: 0px -100px;
+        background-attachment: fixed;
 
         p {
             color: rgb(135, 131, 126);
@@ -31,7 +35,7 @@
             justify-content: center;
             align-items: center;
             line-height:8px;
-            
+
             svg {
                 width: 45px;
                 height: 45px;
