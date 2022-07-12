@@ -1,16 +1,36 @@
 .bio {
 
     .b-info {
-        height: 80vh;
-        border: solid blue 1px;
+        height: 70vh;
+        margin: 0 12rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
 
         .b-para {
-            color: #FFDB58;
+            color: rgb(135, 131, 126);
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            transition: ease-in 0.5s;
+
+            &:hover {
+                color: #B39F79;
+            }
         }
     }
 
     .b-img {
         height: 50vh;
-        border: solid red 1px;
+
+        img {
+            height: 50vh;
+            width: 100%;
+            object-fit: cover;
+            object-position: 0 -300px;
+        }
     }
 }

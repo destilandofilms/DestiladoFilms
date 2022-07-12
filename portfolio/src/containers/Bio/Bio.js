@@ -1,4 +1,7 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+
+import Bottom from "../../assests/bottom.jpg";
 
 import "./Bio.scss";
 
@@ -7,8 +10,8 @@ const Bio = () => {
     <div className='bio'>
       <div className='b-info'>
         <div className='b-title'>
-          <h4>Acerca de</h4>
-          <h6>Cinematografo. Cineasta. Narador.</h6>
+          <h2>Acerca de</h2>
+          <h3>Cinematografo. Cineasta. Narador.</h3>
         </div>
 
         <div className='b-para'>
@@ -36,10 +39,12 @@ const Bio = () => {
             laborum.
           </p>
         </div>
+
+        <NavLink to="/contact">Manda me mensaje →</NavLink>
       </div>
 
       <div className='b-img'>
-        <p>Here will go an image</p>
+        <img src={Bottom} alt="Bottom banner" />
       </div>
     </div>
   );
