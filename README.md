@@ -4,7 +4,7 @@ Profesional Website for Destilado Films.
 ## Technologies
     - React
     - Sass
-    - React-Youtube
+    - React-Player
 
 
 ## Pages 
