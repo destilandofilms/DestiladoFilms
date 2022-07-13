@@ -5,6 +5,7 @@ Profesional Website for Destilado Films.
     - React
     - Sass
     - React-Player
+    - Bootstrap
 
 
 ## Pages 

@@ -8,7 +8,7 @@ import Bodas from './containers/Bodas/Bodas';
 import Music from './containers/Music/Music';
 import Bio from './containers/Bio/Bio';
 import Equipo from './containers/Equipo/Equipo';
-import Contact from './components/Contact/Contact';
+import Contact from './containers/Contact/Contact';
 
 import "./App.scss";
 
