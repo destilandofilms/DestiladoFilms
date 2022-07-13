@@ -5,15 +5,14 @@ Profesional Website for Destilado Films.
     - React
     - Sass
     - React-Player
-    - Bootstrap
 
 
 ## Pages 
-    [ ] - Home
+    [Done] - Home
     [ ] - Weddings
     [ ] - Events
     [ ] - Music Videos
-    [ ] - Bio
-    [ ] - Equipo
+    [Done] - Bio
+    [Done] - Equipo
     [ ] - Contact
     [ ] - NavBar
