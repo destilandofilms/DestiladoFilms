@@ -5,10 +5,10 @@ const CarouselItem = (props) => {
   return (
     <div className='c-item'>
         <h3>{props.video.title}</h3>
-        
+
         <ReactPlayer 
             className='react-player'
-            url={props.vidoe.url}
+            url={props.video.url}
             controls={true}
             pip={true}
         />

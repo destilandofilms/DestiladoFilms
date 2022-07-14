@@ -1,5 +1,6 @@
 import React from 'react';
-import Gallery from '../../components/Gallery/Gallery';
+import Carousel from '../../components/Carousel/Carousel';
+// import Gallery from '../../components/Gallery/Gallery';
 
 import "./Eventos.scss";
 
@@ -17,7 +18,9 @@ const Eventos = () => {
 
   return (
     <div className='eventos'>
-      <Gallery />
+      {/* <Gallery /> */}
+
+      <Carousel />
     </div>
   );
 };
