@@ -1,0 +1,14 @@
+.music {
+    height: 100%;
+
+    .m-img {
+        height: 50vh;
+
+        img {
+            height: 50vh;
+            width: 100%;
+            object-fit: cover;
+            object-position: 0 -150px;
+        }
+    } 
+}
