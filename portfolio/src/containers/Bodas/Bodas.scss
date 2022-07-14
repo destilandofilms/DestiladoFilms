@@ -1,0 +1,14 @@
+.bodas {
+    height: 100%;
+
+    .b-img {
+        height: 50vh;
+
+        img {
+            height: 50vh;
+            width: 100%;
+            object-fit: cover;
+            object-position: 0 -510px;
+        }
+    }
+}
