@@ -5,14 +5,23 @@ Profesional Website for Destilado Films.
     - React
     - Sass
     - React-Player
+    - Emailjs
 
 
 ## Pages 
     [Done] - Home
-    [ ] - Weddings
-    [ ] - Events
-    [ ] - Music Videos
+    [Done] - Weddings
+    [Done] - Events
+    [Done] - Music Videos
     [Done] - Bio
     [Done] - Equipo
-    [ ] - Contact
-    [ ] - NavBar
+    [Done] - Contact
+    [Done] - NavBar
+
+## Objectives
+
+    [ ] - Make mobile responsive
+    [ ] - Set up Emailjs
+    [ ] - Fill with pictures of Destilado
+    [ ] - Add Context API for data
+    [ ] - Get rid of Lorem Ipsum with real text
