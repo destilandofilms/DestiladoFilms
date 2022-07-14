@@ -1,0 +1,24 @@
+.carousel {
+    overflow: hidden;
+
+    .c-inner {
+        white-space: nowrap;
+        transition: transform 0.3s;
+
+        .c-item {
+            display: inline-block;
+            align-items: center;
+            justify-content: center;
+            background-color: gray;
+        }
+    }
+
+    .indicators {
+        display: flex;
+        justify-content: center;
+
+        button {
+            margin: 5px;
+        }
+    }
+}

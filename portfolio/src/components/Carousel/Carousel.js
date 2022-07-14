@@ -1,8 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import CarouselItem from './CarouselItem';
 
+import "./Carousel.scss";
 
 const Carousel = () => {
+    const [activeIndex, setActiveIndex] = useState(0);
+
+    const updateIndex = (newIndex) => {
+        if (newIndex < 0) {
+            newIndex = 0;
+        } else if (newIndex >= videoProperties[newIndex].id + 1) {
+            newIndex = videoProperties[newIndex].id - 2;
+        }
+
+        setActiveIndex(newIndex);
+    };
+
     const videoProperties = [
         {
             id: 1,
@@ -10,10 +23,7 @@ const Carousel = () => {
             url: "https://www.facebook.com/114394897358061/videos/319468523632082",
             credit: "Destilado Films",
             text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-            ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum dolore eu fugiat nulla pariatur.`
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
         },
         {
             id: 2,
@@ -21,10 +31,7 @@ const Carousel = () => {
             url: "https://www.facebook.com/114394897358061/videos/1048106535814777",
             credit: "Destilado Films",
             text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-            ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum dolore eu fugiat nulla pariatur.`
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
         },
         {
             id: 3,
@@ -32,22 +39,40 @@ const Carousel = () => {
             url: "https://www.facebook.com/114394897358061/videos/1048106535814777",
             credit: "Destilado Films",
             text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-            ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum dolore eu fugiat nulla pariatur.`
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
         }
     ]
 
-  return (
-    <div className='carousel'>
-        {videoProperties.map((video) => {
-            return (
-                <CarouselItem video={video} key={video.id}/>
-            )
-        })}
-    </div>
-  );
+    return (
+        <div className='carousel'>
+            <div className='c-inner' style={{ transform: `translateX(-${activeIndex * 100}%)` }}>
+                {videoProperties.map((video) => {
+                    return (
+                        <CarouselItem video={video} key={video.id} width={"100%"} />
+
+                    )
+                })}
+            </div>
+
+            <div className='indicators'>
+                <button
+                    onClick={() => {
+                        updateIndex(activeIndex - 1)
+                    }}
+                >
+                    Prev
+                </button>
+
+                <button
+                    onClick={() => {
+                        updateIndex(activeIndex + 1)
+                    }}
+                >
+                    Next
+                </button>
+            </div>
+        </div>
+    );
 };
 
 export default Carousel;

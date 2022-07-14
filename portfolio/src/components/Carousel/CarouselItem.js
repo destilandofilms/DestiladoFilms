@@ -1,19 +1,19 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
 
-const CarouselItem = (props) => {
+const CarouselItem = ({ video, width}) => {
   return (
-    <div className='c-item'>
-        <h3>{props.video.title}</h3>
+    <div className='c-item' style={{ width: width}}>
+        <h3>{video.title}</h3>
 
         <ReactPlayer 
             className='react-player'
-            url={props.video.url}
+            url={video.url}
             controls={true}
             pip={true}
         />
 
-        <p>{props.video.text}</p>
+        <p>{video.text}</p>
     </div>
   );
 };
