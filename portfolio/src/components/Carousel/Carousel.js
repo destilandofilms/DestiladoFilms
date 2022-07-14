@@ -56,20 +56,18 @@ const Carousel = () => {
 
             <div className='indicators'>
                 <button
+                    className='left'
                     onClick={() => {
                         updateIndex(activeIndex - 1)
                     }}
-                >
-                    Prev
-                </button>
+                />
 
                 <button
+                    className='right'
                     onClick={() => {
                         updateIndex(activeIndex + 1)
                     }}
-                >
-                    Next
-                </button>
+                />
             </div>
         </div>
     );

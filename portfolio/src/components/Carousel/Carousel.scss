@@ -9,7 +9,18 @@
             display: inline-block;
             align-items: center;
             justify-content: center;
-            background-color: gray;
+
+            h3 {
+                text-align: center;
+            }
+
+            .react-player {
+                margin: auto;
+            }
+
+            p {
+                text-align: center;
+            }
         }
     }
 
@@ -18,7 +29,24 @@
         justify-content: center;
 
         button {
-            margin: 5px;
+            border: solid white;
+            background-color: black;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+            margin: 15px;
+            cursor: pointer;
         }
+
+        .left {
+            transform: rotate(135deg);
+            -webkit-transform: rotate(135deg);
+        }
+
+        .right {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+
     }
 }
