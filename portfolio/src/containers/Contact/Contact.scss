@@ -20,6 +20,7 @@
 
             h2 {
                 color: #B39F79;
+                text-transform: uppercase;
             }
 
             p {
@@ -98,6 +99,7 @@
 
                 label {
                     color: rgb(135, 131, 126);
+                    font-style: italic;
                 }
 
                 input {
@@ -135,6 +137,8 @@
                     transition-property: all;
                     transition-timing-function: cubic-bezier(.4, 0, .2, 1);
                     margin-left: 2px;
+                    text-align: center;
+                    font-style: italic;
 
                     &:hover {
                         background: #B39F79;
