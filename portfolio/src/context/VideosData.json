@@ -1,0 +1,82 @@
+[
+    {
+        "Bodas": [
+            {
+                "id": 1,
+                "title": "Alexia & José Juan",
+                "url": "https://www.facebook.com/114394897358061/videos/475198537571609",
+                "text": "Eres el aire, el cielo, el agua, eres la sed de cariño que el creador sembró en mi corazón, eres la definición del amor, aunque jamás haya podido definirse ni pueda hacerse nunca: definir es limitar y el amor no tiene límites."
+            },
+            {
+                "id": 2,
+                "title": "Jessenia & Martin",
+                "url": "https://www.facebook.com/114394897358061/videos/752913952762807",
+                "text": "La hora del amor se aquieta y en silencio, es de los dos el tiempo, y no existen distancias…"
+            },
+            {
+                "id": 3,
+                "title": "Paola & Daniel",
+                "url": "https://www.facebook.com/114394897358061/videos/276562517795652",
+                "text": "Mirémonos lentamente, descubrámonos el uno al otro, hagamos de este silencio algo inolvidable…"
+            },
+            {
+                "id": 4,
+                "title": "Socorro & Eddy",
+                "url": "https://www.facebook.com/114394897358061/videos/4398292710281991",
+                "text": "La vida se vuelve una recopilación momentos, hagamos de esto la mejor historia…"
+            }
+        ],
+        "Eventos": [
+            {
+                "id": 1,
+                "title": "Proyecto A",
+                "url": "https://www.facebook.com/114394897358061/videos/716854522707271",
+                "text": "Todos y cada uno de ustedes tienen el ritmo del océano latiendo dentro de ustedes. Hemos conectado juntos a ese ritmo… Habéis respondido a la llamada del “PROYECTO A”"
+            },
+            {
+                "id": 2,
+                "title": "Circus Party",
+                "url": "https://www.facebook.com/114394897358061/videos/1048106535814777",
+                "text": "Asi se vivio la pasada Circus party del 25 de junio por Las infieles"
+            },
+            {
+                "id": 3,
+                "title": "Party Twins",
+                "url": "https://www.facebook.com/114394897358061/videos/954431315131648",
+                "text": "Mejores Momentos de #Partytwins Los Mejores Eventos solo en Terraza Tapatio 1900 Boutique Tequila Orgullo Heredado"
+            },
+            {
+                "id": 4,
+                "title": "Spring Summer 2022 renovation collection",
+                "url": "https://www.facebook.com/114394897358061/videos/300897048791208",
+                "text": "REVOLUTION OWN STYLE nos presento su nueva colección de verano en La MARÍA Discoteque Tepatitlán junto a grandes figuras de la escena rap de la region"
+            }
+        ],
+        "Musica": [
+            {
+                "id": 1,
+                "title": "TEMO VOLAR",
+                "url": "https://www.facebook.com/114394897358061/videos/407711574591820",
+                "text": "Alan el tapatio (Alan Alvizo ) con su nuevo sencillo TEMO VOLAR, en colaboracion con Dollan Estudio proximamente en todas las tiendas digitales"
+            },
+            {
+                "id": 2,
+                "title": "Como cada noche - Aravel cover",
+                "url": "https://www.facebook.com/114394897358061/videos/383908270333047",
+                "text": "“Vivir un sueño nunca es tarde! persigue tus sueños e ilusiones, con un poco de esfuerzo se pueden lograr! Nunca dejas de soñar!” - Aravel"
+            },
+            {
+                "id": 3,
+                "title": "Halo- Ximena Magaña",
+                "url": "https://www.facebook.com/114394897358061/videos/1388896568207509",
+                "text": "Cover de Halo - Beyonce, cantado por Ximena Magaña"
+            },
+            {
+                "id": 4,
+                "title": "Sabotage",
+                "url": "https://www.facebook.com/114394897358061/videos/319468523632082",
+                "text": "Presentacion de Sabotage el pasado jueves 7 en SportsCenter Arandas Atentos a sus proximas fechas."
+            }
+        ]
+    }
+]
