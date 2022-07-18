@@ -20,8 +20,11 @@
             }
 
             p {
-                text-align: center;
                 color: rgb(135, 131, 126);
+                text-align: center;
+                white-space: normal;
+                padding: 0 10rem;
+
             }
 
             .loader {
