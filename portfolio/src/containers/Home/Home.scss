@@ -4,7 +4,7 @@
     justify-content: space-between;
 
     .h-main {
-        height: 100vh;
+        height: 90vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -12,15 +12,17 @@
         background-size: cover;
         background-position: 0 -80px;
         background-attachment: fixed;
+        width: 100%;
+        background-repeat: no-repeat;
     }
 
     .h-mini-bio {
-        height: 50vh;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        padding: 1rem;
+        padding: 4rem 1rem;
         margin: 0 10rem;
         line-height: 1rem;
 
@@ -92,5 +94,31 @@
         }
 
 
+    }
+}
+
+@media screen and (max-width:740px) {
+    .home {
+
+        .h-main {
+            height: 80vh;
+        }
+        
+        .h-mini-bio {
+            margin: 0 4rem;
+            height: 100%;
+
+            .hm-title {
+                
+                h2 {
+                    line-height: 2rem;
+                }
+            }
+        }
+
+        .h-topics {
+            flex-direction: column;
+            height: 100%;
+        }
     }
 }

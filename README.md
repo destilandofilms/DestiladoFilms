@@ -23,5 +23,5 @@ Profesional Website for Destilado Films.
     [ ] - Make mobile responsive
     [ ] - Set up Emailjs
     [ ] - Fill with pictures of Destilado
-    [ ] - Add Context API for data
+    [Done] - Add Context API for data
     [ ] - Get rid of Lorem Ipsum with real text

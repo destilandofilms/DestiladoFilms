@@ -16,12 +16,13 @@
         }
     }
 
-    label, input {
+    label,
+    input {
         display: none;
     }
 
     nav {
-        
+
         a {
             text-decoration: none;
             color: white;
@@ -31,6 +32,46 @@
             &:hover {
                 color: #B39F79;
             }
+        }
+    }
+}
+
+@media screen and (max-width:590px) {
+    .menu {
+
+        label {
+            display: block;
+            cursor: pointer;
+            padding: 0 0 0.5rem 1rem;
+            font-size: large;
+        }
+
+        nav {
+            text-align: center;
+            width: 90%;
+            display: none;
+            height: 100%;
+
+            a {
+                padding: 0.5rem 0;
+                margin: 0;
+                width: 100%;
+            }
+
+            a:not(:last-child) {
+                border-bottom: solid 1px gray;
+            }
+
+
+        }
+
+        #toggle:checked+nav {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            display: visible;
         }
     }
 }

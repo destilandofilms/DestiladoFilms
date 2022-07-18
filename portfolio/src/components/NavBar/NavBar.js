@@ -6,7 +6,9 @@ import Logo from "../../assests/destilado.jpg";
 import "./NavBar.scss";
 
 const NavBar = () => {
-    const { checked, setChecked } = useState(false);
+    const [ checked, setChecked ] = useState(false);
+
+    console.log(checked)
 
     return (
         <div className='menu'>
