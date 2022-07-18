@@ -1,52 +1,28 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import CarouselItem from './CarouselItem';
 
 import "./Carousel.scss";
+import { VideoContext } from '../../context/VideoContext';
 
-const Carousel = () => {
+const Carousel = (props) => {
+    const { videos } = useContext(VideoContext);
     const [activeIndex, setActiveIndex] = useState(0);
 
     const updateIndex = (newIndex) => {
         if (newIndex < 0) {
             newIndex = 0;
-        } else if (newIndex >= videoProperties[newIndex].id + 1) {
-            newIndex = videoProperties[newIndex].id - 2;
+        } else if (newIndex >= videos[props.name][newIndex].id + 1) {
+            newIndex = videos[props.name][newIndex].id - 2;
         }
 
+        console.log(videos[props.name][newIndex].id);
         setActiveIndex(newIndex);
     };
-
-    const videoProperties = [
-        {
-            id: 1,
-            title: "Video 1",
-            url: "https://www.facebook.com/114394897358061/videos/319468523632082",
-            credit: "Destilado Films",
-            text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
-        },
-        {
-            id: 2,
-            title: "Video 2",
-            url: "https://www.facebook.com/114394897358061/videos/1048106535814777",
-            credit: "Destilado Films",
-            text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
-        },
-        {
-            id: 3,
-            title: "Video 3",
-            url: "https://www.facebook.com/114394897358061/videos/1048106535814777",
-            credit: "Destilado Films",
-            text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
-        }
-    ]
 
     return (
         <div className='carousel'>
             <div className='c-inner' style={{ transform: `translateX(-${activeIndex * 100}%)` }}>
-                {videoProperties.map((video) => {
+                {videos[props.name].map((video) => {
                     return (
                         <CarouselItem video={video} key={video.id} width={"100%"} />
 
@@ -74,7 +50,7 @@ const Carousel = () => {
                     </svg>
                 </button>
 
-                {videoProperties.map((video) => {
+                {videos[props.name].map((video) => {
                     return (
                         <button
                             key={video.id}

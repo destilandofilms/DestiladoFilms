@@ -16,6 +16,7 @@ const CarouselItem = ({ video, width}) => {
             controls={true}
             pip={true}
             onReady={() => setLoading(false)}
+            isLoading={false}
         />
 
         <p>{video.text}</p>

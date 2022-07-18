@@ -8,7 +8,7 @@ const Eventos = () => {
 
   return (
     <div className='eventos'>
-      <Carousel />
+      <Carousel name={"Eventos"}/>
 
       <div className='e-img'>
         <img src={nightclub} alt='Bottom banner'/>

@@ -1,4 +1,3 @@
-[
     {
         "Bodas": [
             {
@@ -26,6 +25,7 @@
                 "text": "La vida se vuelve una recopilación momentos, hagamos de esto la mejor historia…"
             }
         ],
+
         "Eventos": [
             {
                 "id": 1,
@@ -52,6 +52,7 @@
                 "text": "REVOLUTION OWN STYLE nos presento su nueva colección de verano en La MARÍA Discoteque Tepatitlán junto a grandes figuras de la escena rap de la region"
             }
         ],
+        
         "Musica": [
             {
                 "id": 1,
@@ -79,4 +80,3 @@
             }
         ]
     }
-]

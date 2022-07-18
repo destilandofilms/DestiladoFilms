@@ -7,7 +7,7 @@ import "./Bodas.scss";
 const Bodas = () => {
   return (
     <div className='bodas'>
-      <Carousel />
+      <Carousel name={"Bodas"}/>
 
       <div className='b-img'>
         <img src={wedding} alt='Bottom Banner'/>

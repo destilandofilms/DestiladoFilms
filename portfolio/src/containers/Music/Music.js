@@ -7,7 +7,7 @@ import "./Music.scss";
 const Music = () => {
   return (
     <div className='music'>
-      <Carousel />
+      <Carousel name={"Musica"}/>
 
       <div className='m-img'>
         <img src={musicvideo} alt='Bottom Banner' />
