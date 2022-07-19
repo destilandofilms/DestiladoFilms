@@ -115,5 +115,28 @@
             background-position: -250px -100px;
             background-attachment: fixed;
         }
+
+        .e-list {
+
+            .cameras,
+            .Lentes,
+            .accesorios,
+            .patrocinadores {
+                width: 15rem;
+                align-self: center;
+
+                svg {
+                    width: 30px;
+                    height: 30px;
+                    fill: #B39F79;
+                    margin-bottom: 1rem;
+                }
+
+                .text {
+                    font-size: smaller;
+                    text-align: center;
+                }
+            }
+        }
     }
 }

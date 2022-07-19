@@ -162,3 +162,64 @@
         }
     }
 }
+
+
+@media screen and (max-width:800px) {
+    .contact {
+        height: 100%;
+    
+        .c_content {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 3rem;
+    
+            .c_left {
+                margin-left: 0;
+    
+                .icons {
+                    margin-bottom: 3rem;
+                }
+            }
+    
+            .c_right {
+                width: 100%;
+                margin-left: 0;
+    
+                .c_thanks {
+                    margin-left: 0;
+                    align-items: center;
+                }
+    
+                form {
+                    align-items: center;
+
+                    input {
+                        width: 60%;
+                    }
+
+                    textarea {
+                        width: 60%;
+                    }
+    
+                    .submit {
+                        align-self: center;
+    
+                    }
+    
+                }
+            }
+        }
+    
+        .c_img {
+            height: 30vh;
+            width: 100%;
+    
+            img {
+                height: 30vh;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}

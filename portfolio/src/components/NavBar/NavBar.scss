@@ -6,6 +6,7 @@
     font-weight: 300;
     font-size: smaller;
     text-transform: uppercase;
+    height: 5vh;
 
     .logo {
         a {
@@ -16,21 +17,24 @@
         }
     }
 
-    label,
-    input {
-        display: none;
-    }
+    .m-nav {
 
-    nav {
+        label,
+        #toggle {
+            display: none;
+        }
 
-        a {
-            text-decoration: none;
-            color: white;
-            padding: 0 1rem;
-            transition: ease-in 0.5s;
+        nav {
 
-            &:hover {
-                color: #B39F79;
+            a {
+                text-decoration: none;
+                color: white;
+                padding: 0 1rem;
+                transition: ease-in 0.5s;
+
+                &:hover {
+                    color: #B39F79;
+                }
             }
         }
     }
@@ -38,40 +42,54 @@
 
 @media screen and (max-width:590px) {
     .menu {
+        position: relative;
+        padding: 0;
+        z-index: 2;
 
-        label {
-            display: block;
-            cursor: pointer;
-            padding: 0 0 0.5rem 1rem;
-            font-size: large;
+        .logo {
+            position: absolute;
+            padding: 0.3rem 0.5rem;
+            z-index: 1;
         }
 
-        nav {
-            text-align: center;
-            width: 90%;
-            display: none;
-            height: 100%;
-
-            a {
-                padding: 0.5rem 0;
-                margin: 0;
-                width: 100%;
-            }
-
-            a:not(:last-child) {
-                border-bottom: solid 1px gray;
-            }
-
-
-        }
-
-        #toggle:checked+nav {
+        .m-nav {
+            position: absolute;
+            background-color: black;
+            width: 100%;
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            display: visible;
+
+            label {
+                display: inline-block;
+                cursor: pointer;
+                padding: 0.5rem 1rem;
+                font-size: large;
+                align-self: flex-end;
+
+            }
+
+            nav {
+                text-align: center;
+                width: 100%;
+                height: 100%;
+                display: none;
+                flex-direction: column;
+                align-items: center;
+                
+
+
+                a {
+                    padding: 0.5rem 0;
+                    margin: 0;
+                    width: 100%;
+                    margin: 0.5rem 0;
+                }
+            }
+
+            #toggle:checked + nav {
+                display: flex;
+                
+            }
         }
     }
 }
