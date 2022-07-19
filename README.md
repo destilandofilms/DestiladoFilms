@@ -20,7 +20,7 @@ Profesional Website for Destilado Films.
 
 ## Objectives
 
-    [ ] - Make mobile responsive
+    [Done] - Make mobile responsive
     [ ] - Set up Emailjs
     [ ] - Fill with pictures of Destilado
     [Done] - Add Context API for data
