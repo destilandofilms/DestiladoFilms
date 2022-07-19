@@ -12,3 +12,59 @@
         }
     } 
 }
+
+@media screen and (max-width:800px) {
+    .music {
+
+        .m-img {
+            height: 30vh;
+
+            img {
+                height: 30vh;
+                object-position: 0 -50px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:700px) {
+    .music {
+
+        .m-img {
+            height: 20vh;
+
+            img {
+                height: 20vh;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .music {
+        height: 100vh;
+
+        .m-img {
+            height: 20vh;
+
+            img {
+                height: 20vh;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:450px) {
+    .music {
+        height: 100%;
+
+        .m-img {
+            height: 15vh;
+
+            img {
+                height: 15vh;
+                object-position: 0 -25px;
+            }
+        }
+    }
+}

@@ -34,3 +34,68 @@
         }
     }
 }
+
+@media screen and (max-width:850px) {
+    .bio {
+        height: 100vh;
+
+        .b-info {
+            height: 70%;
+            margin: 1rem 12rem;
+        }
+
+        .b-img {
+            height: 25vh;
+
+            img {
+                height: 25vh;
+                object-position: 0 -200px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:700px) {
+    .bio {
+        height: 90vh;
+
+        .b-info {
+            margin: 0 6rem;
+        }
+
+        .b-img {
+
+            img {
+                object-position: 0 -120px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .bio {
+        height: 90vh;
+        .b-info {
+            margin: 0 3rem;
+        }
+
+        .b-img {
+
+            img {
+                object-position: 0 -100px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:500px) {
+    .bio {
+        height: 100%;
+
+        .b-info {
+            height: 70%;
+            margin: 1rem 3rem;
+        }
+    }
+}

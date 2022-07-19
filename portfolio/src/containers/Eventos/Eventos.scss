@@ -12,3 +12,46 @@
         }
     }
 }
+
+@media screen and (max-width:800px) {
+    .eventos {
+
+        .e-img {
+            height: 100%;
+
+            img {
+                height: 30vh;
+                object-position: 0 -100px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:700px) {
+    .eventos {
+
+        .e-img {
+            height: 20vh;
+
+            img {
+                height: 20vh;
+                object-position: 0 -100px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .eventos {
+        height: 100%;
+
+        .e-img {
+            height: 100%;
+
+            img {
+                object-position: 0 -150px;
+            }
+        }
+    }
+}
+

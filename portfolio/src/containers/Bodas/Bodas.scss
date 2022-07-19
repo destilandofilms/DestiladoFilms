@@ -12,3 +12,59 @@
         }
     }
 }
+
+@media screen and (max-width:800px) {
+    .bodas {
+
+        .b-img {
+            height: 30vh;
+
+            img {
+                height: 30vh;
+                object-position: 0 -250px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:700px) {
+    .bodas {
+
+        .b-img {
+            height: 20vh;
+
+            img {
+                height: 20vh;
+                object-position: 0 -230px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .bodas {
+        height: 100%;
+
+        .b-img {
+            height: 20vh;
+
+            img {
+                height: 20vh;
+                object-position: 0 -200px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:450px) {
+    .bodas {
+        height: 100%;
+
+        .b-img {
+
+            img {
+                object-position: 0 -130px;
+            }
+        }
+    }
+}

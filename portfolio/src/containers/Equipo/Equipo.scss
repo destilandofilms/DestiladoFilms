@@ -27,14 +27,17 @@
         justify-content: center;
         padding: 2rem 6rem;
 
-        .cameras, .Lentes, .accesorios, .patrocinadores {
+        .cameras,
+        .Lentes,
+        .accesorios,
+        .patrocinadores {
             position: relative;
             flex-basis: 50%;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            line-height:8px;
+            line-height: 8px;
 
             svg {
                 width: 45px;
@@ -47,6 +50,70 @@
                 font-size: smaller;
                 text-align: center;
             }
+        }
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .equipo {
+        .e-exp {
+            height: 50vh;
+            padding: 0 20rem 0 5rem;
+            background-position: 0px -100px;
+            background-attachment: fixed;
+
+            p {
+                color: rgb(135, 131, 126);
+            }
+        }
+
+        .e-list {
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            height: 100%;
+
+            .cameras,
+            .Lentes,
+            .accesorios,
+            .patrocinadores {
+                margin: 1rem 0;
+
+                svg {
+                    width: 45px;
+                    height: 45px;
+                    fill: #B39F79;
+                    margin-bottom: 1rem;
+                }
+
+                .text {
+                    font-size: smaller;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:650px) {
+    .equipo {
+        .e-exp {
+            height: 50vh;
+            padding: 0 10rem 0 5rem;
+            background-position: -150px -100px;
+            background-attachment: fixed;
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .equipo {
+        .e-exp {
+            height: 100%;
+            padding: 0 5rem 0 5rem;
+            background-position: -250px -100px;
+            background-attachment: fixed;
         }
     }
 }
