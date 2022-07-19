@@ -125,16 +125,26 @@
         .active {
             background-color: #B39F79;
         }
+    }
+}
 
-        // .left {
-        //     transform: rotate(135deg);
-        //     -webkit-transform: rotate(135deg);
-        // }
+@media screen and (max-width:680px) {
+    .carousel {
 
-        // .right {
-        //     transform: rotate(-45deg);
-        //     -webkit-transform: rotate(-45deg);
-        // }
+        .c-inner {
 
+            .c-item {
+
+                .react-player {
+                    align-self: center;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                p {
+                    padding: 0 4rem;
+                }
+            }
+        }
     }
 }

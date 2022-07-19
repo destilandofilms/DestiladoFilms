@@ -12,6 +12,8 @@ const CarouselItem = ({ video, width}) => {
 
         <ReactPlayer 
             className={`react-player`}
+            width={"50%"}
+            height={"100%"}
             url={video.url}
             controls={true}
             pip={true}
