@@ -1,5 +1,5 @@
-# DestiladoFilms
-Profesional Website for Destilado Films.
+# DestilandoFilm
+Profesional Website for Destilando Films.
 
 ## Technologies
     - React
@@ -25,3 +25,4 @@ Profesional Website for Destilado Films.
     [ ] - Fill with pictures of Destilado
     [Done] - Add Context API for data
     [ ] - Get rid of Lorem Ipsum with real text
+    [ ] - Fix video playback Facebook copyright issue
