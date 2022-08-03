@@ -11,24 +11,38 @@ const Home = () => {
       </div>
 
       <div className='h-mini-bio'>
-        <div className="hm-title">
-          <h2>Acerca de</h2>
-          <h2>Cinematografo. Cineasta. Narador.</h2>
+        <div className="hm-para">
+          <h2>Misión</h2>
+          <p>
+            Ser una productora líder en todos los campos de música, cine, cortometraje y publicidad audiovisual.
+          </p>
         </div>
 
         <div className='hm-para'>
+          <h2>Visión</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat.
+            Proporcionar un ambiente donde nuestros colaboradores se sientan orgullosos de trabajar.
+            Innovar en la industria del entretenimiento, ofrecer experiencias inolvidables para nuestros clientes,
+            y generar retornos financieros superiores
           </p>
-
-          <NavLink to="/bio">
-            Read More →
-          </NavLink>
         </div>
+
+        <div className='hm-para valor'>
+          <h2>Valores</h2>
+          <div>
+            <p>Honestidad</p>
+            <p>Calidad</p>
+            <p>Optimismo</p>
+            <p>Fraternidad</p>
+            <p>Innovación</p>
+            <p>Competitividad</p>
+            <p>Pasión</p>
+          </div>
+        </div>
+
+        <NavLink to="/bio">
+          Read More →
+        </NavLink>
       </div>
 
       <div className='h-topics'>
