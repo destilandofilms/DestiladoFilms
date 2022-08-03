@@ -28,8 +28,11 @@ const Contact = () => {
           <p>Estamos emocionados para ayudar realizar su vision!</p>
 
           <div className='c_info'>
-            <p><a href='https://mail.google.com/mail/?view=cm&fs=1&to=destiladofilms@gmail.com'>destiladofilms@gmail.com</a><span/>348-141-7926</p>
+            <p><a href='https://mail.google.com/mail/?view=cm&fs=1&to=destiladofilms@gmail.com'>destilandofilms@gmail.com</a><span/>348-141-7926</p>
           </div>
+
+          {/* Prof. Jose Maria Gonzalez Cruz. 285,
+          LA PROVIDENCIA, 47180 Arandas, Jal., Mexico */}
 
           <div className='icons'>
             <a className='youtube' href='#0'>
