@@ -9,15 +9,10 @@ const Equipo = () => {
       <div className='e-exp'>
         <h2>Equipo</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat. Duis aute irure dolor in reprehenderit
-          in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident,
-          sunt in culpa qui officia deserunt mollit anim id est
-          laborum.
+          En Destilando films tenemos como prioridad dar un servicio premium por
+          lo que nuestro equipo debe de ser el indicado  pues existen condiciones
+          adversas que pueden hacer que un equipo de calidad media no entregue un
+          resultado al nivel que manejamos.
         </p>
       </div>
 
@@ -36,9 +31,8 @@ const Equipo = () => {
 
           <div className='text'>
             <h3>Cameras</h3>
-            <p>I’m an item. ​Click here to edit me.</p>
-            <p>I’m an item. ​Click here to edit me.</p>
-            <p>I’m an item. ​Click here to edit me.</p>
+            <p>Sony A7II</p>
+            <p>Sony A7s</p>
           </div>
         </div>
 
@@ -58,9 +52,11 @@ const Equipo = () => {
 
           <div className='text'>
             <h3>Lentes</h3>
-            <p>I’m an item. ​Click here to edit me.</p>
-            <p>I’m an item. ​Click here to edit me.</p>
-            <p>I’m an item. ​Click here to edit me.</p>
+            <p>Sony 3.5-5.6 28mm-70mm</p>
+            <p>Sony 1.8 50mm</p>
+            <p>Sony 2.8 16mm</p>
+            <p>Minolta 3.5-4.5 28mm-85mm</p>
+            <p>Minolta 1.7 50mm</p>
           </div>
         </div>
 
@@ -81,9 +77,9 @@ const Equipo = () => {
 
           <div className='text'>
             <h3>Accesorios</h3>
-            <p>I’m an item. ​Click here to edit me.</p>
-            <p>I’m an item. ​Click here to edit me.</p>
-            <p>I’m an item. ​Click here to edit me.</p>
+            <p>zhiyun weebill s Stabilizer</p>
+            <p>TransMount Servo Zoom/Focus Motor (MAX)</p>
+            <p>Macbook Pro 2022</p>
           </div>
         </div>
 
@@ -102,10 +98,10 @@ const Equipo = () => {
           </svg>
 
           <div className='text'>
-            <h3>Patrocinadores</h3>
-            <p>I’m an item. ​Click here to edit me.</p>
-            <p>I’m an item. ​Click here to edit me.</p>
-            <p>I’m an item. ​Click here to edit me.</p>
+            <h3>Interacciónes con Marcas</h3>
+            <p>Fabo Fotografía</p>
+            <p>Moran Fotografía</p>
+            <p>Las Infieles</p>
           </div>
         </div>
       </div>
