@@ -24,5 +24,8 @@ Profesional Website for Destilando Films.
     [ ] - Set up Emailjs
     [ ] - Fill with pictures of Destilado
     [Done] - Add Context API for data
-    [ ] - Get rid of Lorem Ipsum with real text
+    [Done] - Get rid of Lorem Ipsum with real text
     [ ] - Fix video playback Facebook copyright issue
+    [ ] - Added context api
+    [ ] - Add address to contact page
+    [ ] - Add links to equipo
