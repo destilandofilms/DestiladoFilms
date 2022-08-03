@@ -16,27 +16,16 @@ const Bio = () => {
 
         <div className='b-para'>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. Duis aute irure dolor in reprehenderit
-            in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident,
-            sunt in culpa qui officia deserunt mollit anim id est
-            laborum.
+            Destilando films cristaliza en 2020 como una alternativa fresca e innovadora para la creación de
+            contenido cinematográfico, producciones musicales y publicitación de áreas culturales aglutinando
+            una gran experiencia contrastada en el esfuerzo de nuestros profesionales y
+            la confianza de nuestros clientes.
           </p>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. Duis aute irure dolor in reprehenderit
-            in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident,
-            sunt in culpa qui officia deserunt mollit anim id est
-            laborum.
+            El objetivo no es otro que ofertar una gama de servicios que permita,
+            mediante una continua filosofía de innovación elevar la calidad de las
+            experiencias que se ofrecen al público.
           </p>
         </div>
 
