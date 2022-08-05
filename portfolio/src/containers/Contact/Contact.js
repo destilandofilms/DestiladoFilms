@@ -30,7 +30,7 @@ const Contact = () => {
 
           <div className='c_info'>
             <a href='https://www.google.com.mx/maps/place/Destilando+Films/@20.7099769,-102.3335882,17z/data=!3m1!4b1!4m5!3m4!1s0x84294d231f2c0ec1:0x741ef3084dca8667!8m2!3d20.7099719!4d-102.3313995'>
-              <img src={location}/> 
+              <img src={location} alt="location icon"/> 
               Prof. Jose Maria Gonzalez Cruz. 285, 
               <br />
               LA PROVIDENCIA, 47180 Arandas, Jal., Mexico
