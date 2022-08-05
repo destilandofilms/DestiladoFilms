@@ -31,8 +31,12 @@ const Equipo = () => {
 
           <div className='text'>
             <h3>Cameras</h3>
-            <p>Sony A7II</p>
-            <p>Sony A7s</p>
+            <a href='https://www.amazon.com.mx/Sony-Alpha-Mirrorless-Digital-Camera/dp/B00PX8CHO6/ref=sr_1_1?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=163UJWOJ7YBLP&keywords=sony+a7ii&qid=1659726057&sprefix=sony+a7%2Caps%2C1506&sr=8-1&ufe=app_do%3Aamzn1.fos.649fe0ca-1cbf-43f1-a365-f15699263f39'>
+              Sony A7II
+            </a>
+            <a href='https://www.amazon.com.mx/Sony-Alpha-Mirrorless-Digital-Camera/dp/B00JIWXTXG'>
+              Sony A7s
+            </a>
           </div>
         </div>
 
@@ -52,11 +56,21 @@ const Equipo = () => {
 
           <div className='text'>
             <h3>Lentes</h3>
-            <p>Sony 3.5-5.6 28mm-70mm</p>
-            <p>Sony 1.8 50mm</p>
-            <p>Sony 2.8 16mm</p>
-            <p>Minolta 3.5-4.5 28mm-85mm</p>
-            <p>Minolta 1.7 50mm</p>
+            <a href='https://www.amazon.com.mx/Sony-28-70mm-F3-5-5-6-Interchangeable-Standard/dp/B00GTXHQ8Q/ref=sr_1_1?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=15YWQWIZRSBU0&keywords=Sony+3.5-5.6+28mm-70mm&qid=1659726408&sprefix=sony+3.5-5.6+28mm-70mm%2Caps%2C273&sr=8-1&ufe=app_do%3Aamzn1.fos.649fe0ca-1cbf-43f1-a365-f15699263f39'>
+              Sony 3.5-5.6 28mm-70mm
+            </a>
+            <a href='https://www.amazon.com.mx/Sony-FE-1-8-accesorios-esenciales/dp/B08BCRZ6ZT/ref=sr_1_1?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2NL4XMAYXBXY6&keywords=Sony+1.8+50mm&qid=1659726478&sprefix=%2Caps%2C259&sr=8-1&ufe=app_do%3Aamzn1.fos.649fe0ca-1cbf-43f1-a365-f15699263f39'>
+              Sony 1.8 50mm
+            </a>
+            <a href='https://www.amazon.com.mx/Sony-SEL16F28-Lente-Angular-Montura/dp/B003OUX6MW/ref=sr_1_7?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=M8G09SBUPBD6&keywords=Sony+2.8+16mm&qid=1659726514&sprefix=%2Caps%2C927&sr=8-7&ufe=app_do%3Aamzn1.fos.649fe0ca-1cbf-43f1-a365-f15699263f39'>
+              Sony 2.8 16mm
+            </a>
+            <a href='https://www.ebay.com/b/Minolta-28-85mm-f-3-5-4-5-Camera-Lenses/3323/bn_110049768'>
+              Minolta 3.5-4.5 28mm-85mm
+            </a>
+            <a href='https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2499334.m570.l1313&_nkw=Minolta+1.7+50mm&_sacat=3323'>
+              Minolta 1.7 50mm
+            </a>
           </div>
         </div>
 
@@ -77,9 +91,15 @@ const Equipo = () => {
 
           <div className='text'>
             <h3>Accesorios</h3>
-            <p>zhiyun weebill s Stabilizer</p>
-            <p>TransMount Servo Zoom/Focus Motor (MAX)</p>
-            <p>Macbook Pro 2022</p>
+            <a href='https://www.amazon.com.mx/Zhiyun-estabilizador-digitales-compatible-Panasonic/dp/B07YJ8PWYD/ref=sr_1_4?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1K9CK2TNYV5UX&keywords=zhiyun+weebill+s+Stabilizer&qid=1659726690&sprefix=zhiyun+weebill+s+stabilizer%2Caps%2C285&sr=8-4&ufe=app_do%3Aamzn1.fos.649fe0ca-1cbf-43f1-a365-f15699263f39'>
+              Zhiyun Weebill S Stabilizer
+            </a>
+            <a href='https://www.amazon.com.mx/ZHIYUN-TransMount-Servo-Motores-WEEBILL/dp/B08DV4T65V/ref=sr_1_2?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=BF298IKZN5MT&keywords=TransMount+Servo+Zoom%2FFocus+Motor+MAX&qid=1659726767&sprefix=transmount+servo+zoom%2Ffocus+motor+ma%2Caps%2C256&sr=8-2&ufe=app_do%3Aamzn1.fos.649fe0ca-1cbf-43f1-a365-f15699263f39'>
+              TransMount Servo Zoom/Focus Motor (MAX)
+            </a>
+            <a href='https://www.amazon.com.mx/Apple-MacBook-Pro-Pulgadas-10-n%C3%BAcleos/dp/B0B3BHT8P6/ref=sr_1_5?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2P76J3T6J6QLE&keywords=Macbook+Pro+2022&qid=1659726803&sprefix=%2Caps%2C291&sr=8-5&ufe=app_do%3Aamzn1.fos.713a5ea8-28c8-4756-9a04-20c241c6dc4c'>
+              Macbook Pro 2022
+            </a>
           </div>
         </div>
 
@@ -99,9 +119,15 @@ const Equipo = () => {
 
           <div className='text'>
             <h3>Interacciónes con Marcas</h3>
-            <p>Fabo Fotografía</p>
-            <p>Moran Fotografía</p>
-            <p>Las Infieles</p>
+            <a href='https://www.facebook.com/FABO.FOTOGRAFIA'>
+              Fabo Fotografía
+            </a>
+            <a href='https://www.facebook.com/moranfotografiaarandas'>
+              Moran Fotografía
+            </a>
+            <a href='https://www.facebook.com/profile.php?id=100067699326435'>
+              Las Infieles
+            </a>
           </div>
         </div>
       </div>

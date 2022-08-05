@@ -41,7 +41,7 @@ const Home = () => {
         </div>
 
         <NavLink to="/bio">
-          Read More →
+          Leer Más →
         </NavLink>
       </div>
 

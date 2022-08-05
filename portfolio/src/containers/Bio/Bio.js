@@ -11,7 +11,7 @@ const Bio = () => {
       <div className='b-info'>
         <div className='b-title'>
           <h2>Acerca de</h2>
-          <h3>Cinematografo. Cineasta. Narador.</h3>
+          <h3>Cinematógrafo. Cineasta. Narrador.</h3>
         </div>
 
         <div className='b-para'>
@@ -29,7 +29,7 @@ const Bio = () => {
           </p>
         </div>
 
-        <NavLink to="/contact">Manda me mensaje →</NavLink>
+        <NavLink to="/contacto">Manda me mensaje →</NavLink>
       </div>
 
       <div className='b-img'>
