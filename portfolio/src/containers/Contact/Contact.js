@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 import collab from '../../assests/collab.jpg';
+import location from '../../assests/icons8-location-50.png';
 import "./Contact.scss";
 
 const Contact = () => {
@@ -28,11 +29,14 @@ const Contact = () => {
           <p>Estamos emocionados para ayudar realizar su vision!</p>
 
           <div className='c_info'>
-            <p><a href='https://mail.google.com/mail/?view=cm&fs=1&to=destiladofilms@gmail.com'>destilandofilms@gmail.com</a><span/>348-141-7926</p>
+            <a href='https://www.google.com.mx/maps/place/Destilando+Films/@20.7099769,-102.3335882,17z/data=!3m1!4b1!4m5!3m4!1s0x84294d231f2c0ec1:0x741ef3084dca8667!8m2!3d20.7099719!4d-102.3313995'>
+              <img src={location}/> 
+              Prof. Jose Maria Gonzalez Cruz. 285, 
+              <br />
+              LA PROVIDENCIA, 47180 Arandas, Jal., Mexico
+            </a>
+            <p><a href='https://mail.google.com/mail/?view=cm&fs=1&to=destiladofilms@gmail.com'>destilandofilms@gmail.com</a><span />348-141-7926</p>
           </div>
-
-          {/* Prof. Jose Maria Gonzalez Cruz. 285,
-          LA PROVIDENCIA, 47180 Arandas, Jal., Mexico */}
 
           <div className='icons'>
             <a className='youtube' href='#0'>
@@ -97,7 +101,7 @@ const Contact = () => {
       </div>
 
       <div className='c_img'>
-            <img src={collab} alt="Bottom Banner" />
+        <img src={collab} alt="Bottom Banner" />
       </div>
     </div>
   );
