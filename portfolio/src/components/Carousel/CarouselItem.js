@@ -6,6 +6,8 @@ import vid1 from '../../assests/sampleVid.mp4';
 const CarouselItem = ({ video, width}) => {
   video.url = vid1;
 
+  // create if statement for changing names to files
+
   return (
     <div className='c-item' style={{ width: width}}>
         <h3>{video.title}</h3>
