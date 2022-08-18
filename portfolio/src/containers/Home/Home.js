@@ -63,7 +63,7 @@ const Home = () => {
             </svg>
 
             <h4>Bodas</h4>
-            <p>I'm a paragraph. Click here to add your own text and edit me.</p>
+            <p>Cada video esta echa con la misma amor y pasion que la pareja.</p>
           </NavLink>
         </div>
 
@@ -83,7 +83,7 @@ const Home = () => {
             </svg>
 
             <h4>Eventos</h4>
-            <p>I'm a paragraph. Click here to add your own text and edit me.</p>
+            <p>Solamente encontraras los mejores eventos y fiestas de mexico!</p>
           </NavLink>
         </div>
 
@@ -101,7 +101,7 @@ const Home = () => {
             </svg>
 
             <h4>Videos de Musica</h4>
-            <p>I'm a paragraph. Click here to add your own text and edit me.</p>
+            <p>Con ritmo, letra, y tantita magia creamos videos de musica impresionantes.</p>
           </NavLink>
         </div>
       </div>
