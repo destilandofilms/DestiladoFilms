@@ -1,13 +1,14 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+import logo from '../../assests/Destilando.png';
 import "./Home.scss";
 
 const Home = () => {
   return (
     <div className='home'>
       <div className='h-main'>
-        Welcome to my site
+        <img src={logo} alt='Logo'/>
       </div>
 
       <div className='h-mini-bio'>

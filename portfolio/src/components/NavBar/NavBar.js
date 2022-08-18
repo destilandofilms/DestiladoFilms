@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
-import Logo from "../../assests/destilado.jpg";
+import Logo from "../../assests/Destilando.png";
 
 import "./NavBar.scss";
 
