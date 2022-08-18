@@ -29,3 +29,4 @@ Profesional Website for Destilando Films.
     [Done] - Add links to equipo
     [ ] - Set up videos locally
     [ ] - Set up github large file storage
+    [ ] - Add descriptions at bottom of homepages
