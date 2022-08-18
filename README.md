@@ -24,6 +24,8 @@ Profesional Website for Destilando Films.
     [ ] - Set up Emailjs
     [Done] - Add Context API for data
     [Done] - Get rid of Lorem Ipsum with real text
-    [ ] - Add videos localy 
+    [Done] - Add videos localy 
     [Done] - Add address to contact page
     [Done] - Add links to equipo
+    [ ] - Set up videos locally
+    [ ] - Set up github large file storage
