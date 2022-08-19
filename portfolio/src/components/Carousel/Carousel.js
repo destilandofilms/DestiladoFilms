@@ -19,7 +19,6 @@ const Carousel = (props) => {
         setActiveIndex(newIndex);
     };
 
-    console.log(videos);
 
     return (
         <div className='carousel'>

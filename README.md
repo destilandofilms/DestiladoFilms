@@ -6,6 +6,7 @@ Profesional Website for Destilando Films.
     - Sass
     - React-Player
     - Emailjs
+    - Git LFS
 
 
 ## Pages 
@@ -27,6 +28,6 @@ Profesional Website for Destilando Films.
     [Done] - Add videos localy 
     [Done] - Add address to contact page
     [Done] - Add links to equipo
-    [ ] - Set up videos locally
-    [ ] - Set up github large file storage
+    [ ] - Create api for videos data instead of context
+    [Done] - Set up github large file storage
     [Done] - Add descriptions at bottom of homepages
