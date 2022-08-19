@@ -8,17 +8,26 @@ import "./Contact.scss";
 const Contact = () => {
   const [sent, setSent] = useState(false);
 
-  const form = useRef();
+  const formRef = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
-      .then((result) => {
-        console.log(result.text);
-      }, (error) => {
-        console.log(error.text);
-      });
+    emailjs
+      .sendForm(
+        "service_v4xv2if",
+        "template_shoqh1d",
+        formRef.current,
+        "xvNzqRQUsjLARMmDI"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setSent(true);
+        },
+        (error) => {
+          console.log(error.text);
+        });
   };
 
   return (
@@ -30,8 +39,8 @@ const Contact = () => {
 
           <div className='c_info'>
             <a href='https://www.google.com.mx/maps/place/Destilando+Films/@20.7099769,-102.3335882,17z/data=!3m1!4b1!4m5!3m4!1s0x84294d231f2c0ec1:0x741ef3084dca8667!8m2!3d20.7099719!4d-102.3313995'>
-              <img src={location} alt="location icon"/> 
-              Prof. Jose Maria Gonzalez Cruz. 285, 
+              <img src={location} alt="location icon" />
+              Prof. Jose Maria Gonzalez Cruz. 285,
               <br />
               LA PROVIDENCIA, 47180 Arandas, Jal., Mexico
             </a>
@@ -87,14 +96,14 @@ const Contact = () => {
               <p>Estare en contacto pronto!</p>
             </div>
           ) : (
-            <form ref={form} onSubmit={sendEmail}>
-              <label>Nombre</label>
+            <form ref={formRef} onSubmit={sendEmail}>
+              <label>Nombre *</label>
               <input type="text" name="user_name" />
               <label>Correo *</label>
               <input type="email" name="user_email" />
-              <label>Mensaje</label>
-              <textarea name="message" />
-              <input className='submit' type="submit" value="Enviar" onClick={() => setSent(true)} />
+              <label>Mensaje *</label>
+              <textarea name="user_message" />
+              <input className='submit' type='submit' value="Enviar" />
             </form>
           )}
         </div>
