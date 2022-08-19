@@ -19,6 +19,8 @@ const Carousel = (props) => {
         setActiveIndex(newIndex);
     };
 
+    console.log(videos);
+
     return (
         <div className='carousel'>
             <div className='c-inner' style={{ transform: `translateX(-${activeIndex * 100}%)` }}>

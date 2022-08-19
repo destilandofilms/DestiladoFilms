@@ -4,7 +4,14 @@ import ReactPlayer from 'react-player';
 import vid1 from '../../assests/sampleVid.mp4';
 
 const CarouselItem = ({ video, width}) => {
-  video.url = vid1;
+
+  console.log(video)
+
+  for (let i = 1; i < 13; i++) {
+    if (video.url === "vid") {
+
+    }
+  };
 
   // create if statement for changing names to files using vid${index} for shorter code
 

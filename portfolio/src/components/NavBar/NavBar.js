@@ -8,8 +8,6 @@ import "./NavBar.scss";
 const NavBar = () => {
     const [checked, setChecked] = useState(false);
 
-    console.log(checked)
-
     return (
         <div className='menu'>
             <div className='logo'>
