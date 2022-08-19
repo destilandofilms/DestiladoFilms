@@ -2,11 +2,12 @@ import React, { createContext, useReducer } from "react";
 
 import data from './VideosData.json';
 
+
 const initialState = {
     videos: data
 };
 
-const VideoReducer = ( state = initialState, action ) => {
+const VideoReducer = (state = initialState, action) => {
 
 };
 
