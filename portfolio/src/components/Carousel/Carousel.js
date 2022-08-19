@@ -15,7 +15,6 @@ const Carousel = (props) => {
             newIndex = videos[props.name][newIndex].id - 2;
         }
 
-        console.log(videos[props.name][newIndex].id);
         setActiveIndex(newIndex);
     };
 
@@ -25,7 +24,7 @@ const Carousel = (props) => {
             <div className='c-inner' style={{ transform: `translateX(-${activeIndex * 100}%)` }}>
                 {videos[props.name].map((video) => {
                     return (
-                        <CarouselItem video={video} key={video.id} width={"100%"} />
+                        <CarouselItem video={video} key={video.id} width={"100%"} activeIndex={activeIndex} />
 
                     )
                 })}

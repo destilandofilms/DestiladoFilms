@@ -29,6 +29,5 @@ Profesional Website for Destilando Films.
     [Done] - Add address to contact page
     [Done] - Add links to equipo
     [ ] - Create api for videos data instead of context
-    [ ] - add thumbnails to videos
     [Done] - Set up github large file storage
     [Done] - Add descriptions at bottom of homepages

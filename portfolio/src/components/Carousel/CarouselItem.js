@@ -15,9 +15,7 @@ import vid10 from "../../assests/como_cada_noche.mp4";
 import vid11 from "../../assests/halo.mp4";
 import vid12 from "../../assests/sabotage.mp4";
 
-const CarouselItem = ({ video, width }) => {
-
-  console.log(video)
+const CarouselItem = ({ video, width, activeIndex }) => {
 
   if (video.url === "vid1") {
     video.url = vid1;
@@ -45,6 +43,14 @@ const CarouselItem = ({ video, width }) => {
     video.url = vid12;
   }
 
+  let play = null;
+
+  if ((video.id - 1) === activeIndex) {
+    play = true;
+  } else {
+    play = false;
+  }
+
 
   // create if statement for changing names to files using vid${index} for shorter code
 
@@ -59,6 +65,7 @@ const CarouselItem = ({ video, width }) => {
         url={video.url}
         controls={true}
         pip={true}
+        playing={play}
       />
 
       <p>{video.text}</p>
