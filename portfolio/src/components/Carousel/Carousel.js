@@ -11,8 +11,8 @@ const Carousel = (props) => {
     const updateIndex = (newIndex) => {
         if (newIndex < 0) {
             newIndex = 0;
-        } else if (newIndex >= videos[props.name][newIndex].id + 1) {
-            newIndex = videos[props.name][newIndex].id - 2;
+        } else if (newIndex >= videos[props.name].length) {
+            newIndex = 0;
         }
 
         setActiveIndex(newIndex);
