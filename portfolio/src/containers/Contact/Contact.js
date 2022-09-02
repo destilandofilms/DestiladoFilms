@@ -15,10 +15,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_v4xv2if",
-        "template_shoqh1d",
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
         formRef.current,
-        "xvNzqRQUsjLARMmDI"
+        process.env.REACT_APP_PUBLIC_KEY
       )
       .then(
         (result) => {
