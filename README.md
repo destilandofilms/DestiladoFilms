@@ -8,3 +8,6 @@ Profesional Website for Destilando Films.
     - Emailjs
     - Git LFS
 
+## To-Do
+    [] - Add email verification
+    [] - A way to upload and remove videos/images
