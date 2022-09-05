@@ -9,5 +9,5 @@ Profesional Website for Destilando Films.
     - Git LFS
 
 ## To-Do
-    [] - Add email verification
+    [Done] - Add email verification
     [] - A way to upload and remove videos/images
