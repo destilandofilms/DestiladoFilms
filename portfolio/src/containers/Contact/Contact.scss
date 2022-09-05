@@ -112,6 +112,18 @@
                 margin-left: 2rem;
                 align-self: center;
 
+                .error {
+                    color: red;
+                }
+
+                .label {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    width: 250px;
+                    justify-content: space-between;
+                }
+
                 label {
                     color: rgb(135, 131, 126);
                     font-style: italic;
