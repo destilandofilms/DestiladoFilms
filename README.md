@@ -7,6 +7,7 @@ Profesional Website for Destilando Films.
     - React-Player
     - Emailjs
     - Git LFS
+    - Formik
 
 ## To-Do
     [Done] - Add email verification
